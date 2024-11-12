@@ -6,7 +6,7 @@
 
 
 The github repo consists of 6 jupyter notebook files each of which performs a specific subtasks of the overall project.
-We have used [kaggle](https://www.kaggle.com) for training , have to somehow manage with  **GPU Tesla P100** 30 hrs of weekly quota.
+I have used [kaggle](https://www.kaggle.com) for training , have to somehow manage with  **GPU Tesla P100** 30 hrs of weekly quota.
 ## 1. Dataset Collection and Preprocessing
 
 UTA-RLDD(Real Life Drowsiness Dataset)  is used for training and validation and custom dataset for testing, it was created for the task of multi- stage drowsiness detection, targeting not only extreme and easily visible cases, but also subtle cases of drowsiness. It consists of around 30 hours of RGB videos of **60** healthy participants. For each participant we obtained one video for each of three different classes: **awake, drowsy, and low vigilant**, for a total of **180** videos.
